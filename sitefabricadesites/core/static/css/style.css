@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(205, 205, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+header{
+    height: 50pxpx;
+    width: 100%;
+    background-color: blueviolet;
+    float: right;
+}
+a{
+    height: 15px;
+    color: white;
+    padding: 5px;
+
+}
+.content{
+    background-color: white;
+}
+.content_funcionario{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_home_funcionario{
+    height: 50px;
+    width: 50px;
+}

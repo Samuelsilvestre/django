@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Nóssos serviços</h2>
+  {% for s in servicos %}
+    <h3>{{ s.descricao }}</h3>
+  {% endfor %}
+  <br>
+  <h2>NÓssos funcionario</h2>
+  {% for f in funcionarios %}
+    <h4>{{ f.nome }}</h4>
+    <img src="{{ f.img.url }}" alt="">
+    <a href="{% url 'DetalheFuncionarioView' f.id %}">Ver detalhes</a>
+  {% endfor %}
+{% endblock content %}<h2>Nóssos serviços</h2>

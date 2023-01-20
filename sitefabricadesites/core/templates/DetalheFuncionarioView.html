@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h3>Veja os detalhes de nósso colaborador</h3>
+  <br>
+  <h4>{{ object.nome }}</h4>
+  <p>{{ object.nome }} tem o cargo de {{ object.cargo }} <br></p>
+    <p>{{ object.biografia |linebreaks }} </p>
+  <img src="{{ object.img.url }}" alt="">
+
+{% endblock content %}<h3>Veja os detalhes de nósso colaborador</h3>
